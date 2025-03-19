@@ -1,0 +1,122 @@
+﻿[
+    {
+        "RecipeName": "Spaghetti Bolognese",
+        "RecipeDescription": "Classic Italian pasta dish",
+        "RecipeInstructions": "Cook pasta, prepare sauce, mix together.",
+        "NumberOfIngredients": 10,
+        "Rating": 4.5,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9a"
+    },
+    {
+        "RecipeName": "Chicken Curry",
+        "RecipeDescription": "Spicy and flavorful",
+        "RecipeInstructions": "Cook chicken, add spices, simmer with sauce.",
+        "NumberOfIngredients": 12,
+        "Rating": 4.7,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9b"
+    },
+    {
+        "RecipeName": "Beef Stew",
+        "RecipeDescription": "Hearty and comforting",
+        "RecipeInstructions": "Brown beef, add vegetables, simmer until tender.",
+        "NumberOfIngredients": 8,
+        "Rating": 4.6,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9c"
+    },
+    {
+        "RecipeName": "Vegetable Stir Fry",
+        "RecipeDescription": "Quick and healthy",
+        "RecipeInstructions": "Stir fry vegetables, add sauce, serve with rice.",
+        "NumberOfIngredients": 7,
+        "Rating": 4.3,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9d"
+    },
+    {
+        "RecipeName": "Grilled Salmon",
+        "RecipeDescription": "Simple and delicious",
+        "RecipeInstructions": "Season salmon, grill until cooked through.",
+        "NumberOfIngredients": 5,
+        "Rating": 4.8,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9e"
+    },
+    {
+        "RecipeName": "Tacos",
+        "RecipeDescription": "Mexican street food",
+        "RecipeInstructions": "Prepare fillings, assemble tacos, serve.",
+        "NumberOfIngredients": 9,
+        "Rating": 4.4,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9f"
+    },
+    {
+        "RecipeName": "Caesar Salad",
+        "RecipeDescription": "Crisp and refreshing",
+        "RecipeInstructions": "Toss lettuce with dressing, add croutons.",
+        "NumberOfIngredients": 6,
+        "Rating": 4.2,
+        "RecipeId": "be9cf9a7-a478-4c03-824a-5de06270495f"
+    },
+    {
+        "RecipeName": "Pancakes",
+        "RecipeDescription": "Fluffy and sweet",
+        "RecipeInstructions": "Mix batter, cook on griddle, serve with syrup.",
+        "NumberOfIngredients": 7,
+        "Rating": 4.5,
+        "RecipeId": "a27c0be8-0e73-4776-b09a-875a1737a0c2"
+    },
+    {
+        "RecipeName": "Lasagna",
+        "RecipeDescription": "Layered pasta dish",
+        "RecipeInstructions": "Layer pasta, sauce, and cheese, bake.",
+        "NumberOfIngredients": 11,
+        "Rating": 4.7,
+        "RecipeId": "bcfa290d-5287-4ad0-979c-965aa5a9931d"
+    },
+    {
+        "RecipeName": "BBQ Ribs",
+        "RecipeDescription": "Smoky and tender",
+        "RecipeInstructions": "Season ribs, cook low and slow, apply sauce.",
+        "NumberOfIngredients": 8,
+        "Rating": 4.6,
+        "RecipeId": "8eb24389-41f7-4871-8517-9bac1b0d384a"
+    },
+    {
+        "RecipeName": "Chocolate Cake",
+        "RecipeDescription": "Rich and moist",
+        "RecipeInstructions": "Mix ingredients, bake, frost with icing.",
+        "NumberOfIngredients": 10,
+        "Rating": 4.9,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9a"
+    },
+    {
+        "RecipeName": "Sushi",
+        "RecipeDescription": "Japanese delicacy",
+        "RecipeInstructions": "Prepare rice, assemble rolls, slice.",
+        "NumberOfIngredients": 12,
+        "Rating": 4.8,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9b"
+    },
+    {
+        "RecipeName": "Pizza",
+        "RecipeDescription": "Cheesy and savory",
+        "RecipeInstructions": "Prepare dough, add toppings, bake.",
+        "NumberOfIngredients": 9,
+        "Rating": 4.7,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9c"
+    },
+    {
+        "RecipeName": "Burger",
+        "RecipeDescription": "Juicy and flavorful",
+        "RecipeInstructions": "Grill patties, assemble with buns and toppings.",
+        "NumberOfIngredients": 8,
+        "Rating": 4.5,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9d"
+    },
+    {
+        "RecipeName": "Apple Pie",
+        "RecipeDescription": "Classic dessert",
+        "RecipeInstructions": "Prepare crust, fill with apples, bake.",
+        "NumberOfIngredients": 6,
+        "Rating": 4.6,
+        "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9e"
+    }
+]
