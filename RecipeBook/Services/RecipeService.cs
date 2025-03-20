@@ -1,39 +1,38 @@
 ﻿using RecipeBook.Models;
 using Newtonsoft.Json;
-using RecipeBook.Models;
-using System.Collections.Generic;
+
 
 namespace RecipeBook.Services;
 
 public class RecipeService : IRecipeService
 {
-    private List<Recipe> recipes = null!;
+    private List<RecipeModel>? Recipes { get; set; }
 
     public RecipeService()
     {
         var json = File.ReadAllText("MockData/MockRecipes.json");
         Console.WriteLine(json);
-        recipes = JsonConvert.DeserializeObject<List<Recipe>>(json);
+        Recipes = JsonConvert.DeserializeObject<List<RecipeModel>>(json);
     }
 
 
-    public List<Recipe> ReturnTopTenRecipes()
+    public List<RecipeModel> ReturnTopTenRecipes()
     {
         throw new NotImplementedException();
     }
 
-    public void AddRecipe(Recipe recipesService)
+    public void AddRecipe(RecipeModel recipesModelService)
     {
         throw new NotImplementedException();
     }
 
-    public Recipe GetRecipe(Guid recipeId)
+    public RecipeModel? GetRecipe(Guid recipeId)
     {
-        throw new NotImplementedException();
+        return Recipes.FirstOrDefault(r => r.RecipeId == recipeId);
     }
 
-    public List<Recipe> GetRecipes()
+    public List<RecipeModel>? GetRecipes()
     {
-        return recipes;
+        return Recipes;
     }
 }

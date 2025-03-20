@@ -1,23 +1,48 @@
-﻿@page "/Recipe"
+﻿@page "/Recipe/{RecipeId:Guid?}"
+@using RecipeBook.Models;
+@using RecipeBook.Services
+@inject IRecipeService RecipeService;
+
+
 <h3>Recipe</h3>
 
-<img src="https://via.placeholder.com/150" alt="Recipe Image" />
+<img src="https://via.placeholder.com/150" alt="Recipe Image"/>
 
-<ul>
-    <li>Ingredients</li>
-    <li>Instructions</li>
-    <li>Steps</li>
-</ul>
+@if (CurrentRecipe != null)
+{
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span class="badge">14</span>
+            Ingredients
+        </li>
+        <li class="list-group-item">
+            <span class="badge">14</span>
+            Instructions
+        </li>
+        <li class="list-group-item">
+            <span class="badge">14</span>
+            Steps
+        </li>
+    </ul>
 
 <p>Steps to cook the recipe:</p>
+}
 
 
 
 
 @code {
 
+    private RecipeModel? CurrentRecipe { get; set; }
+
+    [Parameter]
+    public string? RecipeId { get; set; }
+
     protected override void OnInitialized()
     {
-        Console.WriteLine("Recipe page initialized");
+        Guid RecipeIdGuid = Guid.Parse(RecipeId);
+        CurrentRecipe = RecipeService.GetRecipe(RecipeIdGuid);
+        Console.WriteLine(CurrentRecipe.RecipeName);
     }
+
 }
