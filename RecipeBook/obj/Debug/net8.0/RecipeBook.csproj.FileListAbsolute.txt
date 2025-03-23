@@ -31,3 +31,4 @@ C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\bin\Debug\net8.0\Mo
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\RecipeBook.csproj.AssemblyReference.cache
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\RecipeBook.csproj.Up2Date
+C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\scopedcss\Components\Pages\Recipe.razor.rz.scp.css

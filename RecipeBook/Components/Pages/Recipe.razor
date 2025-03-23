@@ -5,15 +5,20 @@
 @inject IRecipeService RecipeService;
 
 
-<h3>Recipe</h3>
-
 
 @if (CurrentRecipe != null)
 {
-    <img src="https://angular.io/assets/images/logos/angular/angular.png" alt="Recipe Image"/>
-    <DescriptionBoxComponent Title="Description" Items="@(new[] { @CurrentRecipe?.RecipeDescription })"/>
-    <DescriptionBoxComponent Title="Number of Ingredients" Items="@(new[] { CurrentRecipe.NumberOfIngredients })"/>
-    <InstructionsComponent RecipeInstructions="@CurrentRecipe.RecipeInstructions"/>
+    <div class="card">
+        <div class="card-body">
+        <h3>Recipe</h3>
+            <img src="@CurrentRecipe?.PictureUrl" alt="Recipe Image"/>
+            <DescriptionBoxComponent Title="Description" Items="@(new[] { @CurrentRecipe?.Description })"/>
+            <DescriptionBoxComponent Title="Number of Ingredients" Items="@(new[] { CurrentRecipe.NumberOfIngredients })"/>
+            <DescriptionBoxComponent Title="Ingredients" Items="@(CurrentRecipe.Ingredients)"/>
+            <InstructionsComponent RecipeInstructions="@CurrentRecipe.Instructions"/>
+        </div>
+    </div>
+
 }
 else
 {
@@ -31,6 +36,7 @@ else
     {
         Guid RecipeIdGuid = Guid.Parse(RecipeId);
         CurrentRecipe = RecipeService.GetRecipe(RecipeIdGuid);
+        Console.WriteLine($"RecipeId: {CurrentRecipe.Ingredients}");
     }
 
 }

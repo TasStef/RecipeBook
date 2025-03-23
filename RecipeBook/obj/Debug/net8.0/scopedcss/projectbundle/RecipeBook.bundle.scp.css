@@ -201,3 +201,12 @@ main[b-vt2g3wq71i] {
         overflow-y: auto;
     }
 }
+/* _content/RecipeBook/Components/Pages/Recipe.razor.rz.scp.css */
+img[b-fmc8wcupdm] {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+}

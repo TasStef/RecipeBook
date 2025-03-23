@@ -34,10 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/Pages/Recipe.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNpcGUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,3 +61,7 @@ build_metadata.AdditionalFiles.CssScope = b-vt2g3wq71i
 [C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-4qem5ndwhk
+
+[C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/Pages/Recipe.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNpcGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fmc8wcupdm

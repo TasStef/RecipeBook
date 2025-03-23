@@ -5,10 +5,12 @@ namespace RecipeBook.Models;
 
 public class RecipeModel
 {
-    public string? RecipeName { get; set; }
-    public string? RecipeDescription { get; set; }
-    public string? RecipeInstructions { get; set; }
+    public string? Name { get; set; }
+    public string? Description { get; set; }
+    public string? Instructions { get; set; }
     public int NumberOfIngredients { get; set; }
+    public string[]? Ingredients { get; set; }
     public double Rating { get; set; }
     public Guid RecipeId { get; set; }
+    public string? PictureUrl { get; set; }
 }
