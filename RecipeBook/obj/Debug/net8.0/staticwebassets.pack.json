@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TasosStefanidis\\RiderProjects\\RecipeBook\\RecipeBook\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecipeBook.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RecipeBook.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\TasosStefanidis\\RiderProjects\\RecipeBook\\RecipeBook\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\TasosStefanidis\\RiderProjects\\RecipeBook\\RecipeBook\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TasosStefanidis\\RiderProjects\\RecipeBook\\RecipeBook\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TasosStefanidis\\RiderProjects\\RecipeBook\\RecipeBook\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RecipeBook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RecipeBook.props",
+      "PackagePath": "build\\RecipeBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RecipeBook.props",
+      "PackagePath": "buildMultiTargeting\\RecipeBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RecipeBook.props",
+      "PackagePath": "buildTransitive\\RecipeBook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

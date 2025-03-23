@@ -1,0 +1,295 @@
+﻿[
+  {
+    "Name": "Spaghetti Bolognese",
+    "Description": "Classic Italian pasta dish",
+    "Instructions": "Cook pasta, prepare sauce, mix together.",
+    "Ingredients": [
+      "Spaghetti",
+      "Ground beef",
+      "Onion",
+      "Garlic",
+      "Tomato sauce",
+      "Tomato paste",
+      "Red wine",
+      "Oregano",
+      "Basil",
+      "Parmesan"
+    ],
+    "PictureUrl": "https://thumbs.dreamstime.com/b/heaped-plate-italian-spaghetti-bolognaise-traditional-bolognese-rich-spiccy-beef-tomato-sauce-topped-grated-91647719.jpg",
+    "NumberOfIngredients": 10,
+    "Rating": 4.5,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9a"
+  },
+  {
+    "Name": "Chicken Curry",
+    "Description": "Spicy and flavorful",
+    "Instructions": "Cook chicken, add spices, simmer with sauce.",
+    "Ingredients": [
+      "Chicken",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Curry powder",
+      "Coconut milk",
+      "Tomatoes",
+      "Cumin",
+      "Coriander",
+      "Turmeric",
+      "Rice",
+      "Cilantro"
+    ],
+    "PictureUrl": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chicken_curry_61994_16x9.jpg",
+    "NumberOfIngredients": 12,
+    "Rating": 4.7,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9b"
+  },
+  {
+    "Name": "Beef Stew",
+    "Description": "Hearty and comforting",
+    "Instructions": "Brown beef, add vegetables, simmer until tender.",
+    "Ingredients": [
+      "Beef chunks",
+      "Potatoes",
+      "Carrots",
+      "Onion",
+      "Celery",
+      "Beef broth",
+      "Red wine",
+      "Bay leaves"
+    ],
+    "PictureUrl": "",
+    "NumberOfIngredients": 8,
+    "Rating": 4.6,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9c"
+  },
+  {
+    "Name": "Vegetable Stir Fry",
+    "Description": "Quick and healthy",
+    "Instructions": "Stir fry vegetables, add sauce, serve with rice.",
+    "Ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell peppers",
+      "Snap peas",
+      "Soy sauce",
+      "Ginger",
+      "Rice"
+    ],
+    "PictureUrl": "https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg",
+    "NumberOfIngredients": 7,
+    "Rating": 4.3,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9d"
+  },
+  {
+    "Name": "Grilled Salmon",
+    "Description": "Simple and delicious",
+    "Instructions": "Season salmon, grill until cooked through.",
+    "Ingredients": [
+      "Salmon fillet",
+      "Lemon",
+      "Olive oil",
+      "Garlic",
+      "Dill"
+    ],
+    "PictureUrl": "https://www.thecookierookie.com/wp-content/uploads/2023/05/featured-grilled-salmon-recipe.jpg",
+    "NumberOfIngredients": 5,
+    "Rating": 4.8,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9e"
+  },
+  {
+    "Name": "Tacos",
+    "Description": "Mexican street food",
+    "Instructions": "Prepare fillings, assemble tacos, serve.",
+    "Ingredients": [
+      "Tortillas",
+      "Ground beef",
+      "Lettuce",
+      "Tomatoes",
+      "Cheese",
+      "Onion",
+      "Sour cream",
+      "Salsa",
+      "Cilantro"
+    ],
+    "PictureUrl": "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos-1024x767.jpg",
+    "NumberOfIngredients": 9,
+    "Rating": 4.4,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9f"
+  },
+  {
+    "Name": "Caesar Salad",
+    "Description": "Crisp and refreshing",
+    "Instructions": "Toss lettuce with dressing, add croutons.",
+    "Ingredients": [
+      "Romaine lettuce",
+      "Croutons",
+      "Parmesan cheese",
+      "Caesar dressing",
+      "Black pepper",
+      "Anchovies"
+    ],
+    "PictureUrl": "https://media.chefdehome.com/750/0/0/caesar/classic-caesar-salad.jpg",
+    "NumberOfIngredients": 6,
+    "Rating": 4.2,
+    "RecipeId": "be9cf9a7-a478-4c03-824a-5de06270495f"
+  },
+  {
+    "Name": "Pancakes",
+    "Description": "Fluffy and sweet",
+    "Instructions": "Mix batter, cook on griddle, serve with syrup.",
+    "Ingredients": [
+      "Flour",
+      "Milk",
+      "Eggs",
+      "Butter",
+      "Sugar",
+      "Baking powder",
+      "Maple syrup"
+    ],
+    "PictureUrl": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/fluffyamericanpancak_74828_16x9.jpg",
+    "NumberOfIngredients": 7,
+    "Rating": 4.5,
+    "RecipeId": "a27c0be8-0e73-4776-b09a-875a1737a0c2"
+  },
+  {
+    "Name": "Lasagna",
+    "Description": "Layered pasta dish",
+    "Instructions": "Layer pasta, sauce, and cheese, bake.",
+    "Ingredients": [
+      "Lasagna noodles",
+      "Ground beef",
+      "Ricotta cheese",
+      "Mozzarella",
+      "Parmesan",
+      "Tomato sauce",
+      "Onion",
+      "Garlic",
+      "Basil",
+      "Oregano",
+      "Eggs"
+    ],
+    "PictureUrl": "https://www.eatingwell.com/thmb/g2-SPKemdPybZTIGBKowO3DNOrE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1965x1419:1967x1421)/Veggie-Lasagna-beauty-557-5cb561c36d4a409dbd587417b8c6682d.jpg",
+    "NumberOfIngredients": 11,
+    "Rating": 4.7,
+    "RecipeId": "bcfa290d-5287-4ad0-979c-965aa5a9931d"
+  },
+  {
+    "Name": "BBQ Ribs",
+    "Description": "Smoky and tender",
+    "Instructions": "Season ribs, cook low and slow, apply sauce.",
+    "Ingredients": [
+      "Pork ribs",
+      "BBQ sauce",
+      "Brown sugar",
+      "Paprika",
+      "Garlic powder",
+      "Onion powder",
+      "Black pepper",
+      "Salt"
+    ],
+    "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwAqTfqf85Lxygv1yGOOPb23baXG1EcWMm2g&s",
+    "NumberOfIngredients": 8,
+    "Rating": 4.6,
+    "RecipeId": "8eb24389-41f7-4871-8517-9bac1b0d384a"
+  },
+  {
+    "Name": "Chocolate Cake",
+    "Description": "Rich and moist",
+    "Instructions": "Mix ingredients, bake, frost with icing.",
+    "Ingredients": [
+      "Flour",
+      "Cocoa powder",
+      "Sugar",
+      "Eggs",
+      "Milk",
+      "Butter",
+      "Vanilla",
+      "Baking powder",
+      "Salt",
+      "Chocolate frosting"
+    ],
+    "PictureUrl": "https://butternutbakeryblog.com/wp-content/uploads/2023/04/chocolate-cake.jpg",
+    "NumberOfIngredients": 10,
+    "Rating": 4.9,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9a"
+  },
+  {
+    "Name": "Sushi",
+    "Description": "Japanese delicacy",
+    "Instructions": "Prepare rice, assemble rolls, slice.",
+    "Ingredients": [
+      "Sushi rice",
+      "Nori",
+      "Fish",
+      "Cucumber",
+      "Avocado",
+      "Rice vinegar",
+      "Wasabi",
+      "Soy sauce",
+      "Ginger",
+      "Sesame seeds",
+      "Carrots",
+      "Rice wine"
+    ],
+    "PictureUrl": "https://static.thatsup.co/content/img/article/23/nov/guide-to-all-you-can-eat-sushi-in-london.jpg",
+    "NumberOfIngredients": 12,
+    "Rating": 4.8,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9b"
+  },
+  {
+    "Name": "Pizza",
+    "Description": "Cheesy and savory",
+    "Instructions": "Prepare dough, add toppings, bake.",
+    "Ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella",
+      "Pepperoni",
+      "Basil",
+      "Olive oil",
+      "Garlic",
+      "Oregano",
+      "Parmesan"
+    ],
+    "PictureUrl": "https://media.timeout.com/images/106075034/750/562/image.jpg",
+    "NumberOfIngredients": 9,
+    "Rating": 4.7,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9c"
+  },
+  {
+    "Name": "Burger",
+    "Description": "Juicy and flavorful",
+    "Instructions": "Grill patties, assemble with buns and toppings.",
+    "Ingredients": [
+      "Ground beef",
+      "Buns",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Cheese",
+      "Pickles",
+      "Mayo"
+    ],
+    "PictureUrl": "https://www.seriouseats.com/thmb/uSNXjlR9pQU0Nt9HJTzD2ZhZ45Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__07__20150728-homemade-whopper-food-lab-35-b3500a5c2f3e4e10aa3169d5f76e1468.jpg",
+    "NumberOfIngredients": 8,
+    "Rating": 4.5,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9d"
+  },
+  {
+    "Name": "Apple Pie",
+    "Description": "Classic dessert",
+    "Instructions": "Prepare crust, fill with apples, bake.",
+    "Ingredients": [
+      "Pie crust",
+      "Apples",
+      "Sugar",
+      "Cinnamon",
+      "Butter",
+      "Lemon juice"
+    ],
+    "PictureUrl": "https://www.southernliving.com/thmb/bbDY1d_ySIrCFcq8WNBkR-3x6pU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2589601_Mailb_Mailbox_Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg",
+    "NumberOfIngredients": 6,
+    "Rating": 4.6,
+    "RecipeId": "d3b07384-d9a1-4d3b-8a1d-4d3b07384d9e"
+  }
+]

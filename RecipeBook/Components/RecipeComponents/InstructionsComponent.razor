@@ -1,0 +1,20 @@
+﻿
+<DescriptionBoxComponent Title="Steps to cook" Items="@(Instructions)"/>
+
+
+@code {
+    [Parameter] public string? RecipeInstructions { get; set; }
+
+    private List<string> Instructions;
+
+    protected override void OnInitialized()
+    {
+        Instructions = FormatInstructions(RecipeInstructions);
+    }
+
+    private List<string> FormatInstructions(string instructions)
+    {
+        return instructions.Split(',').ToList();
+    }
+
+}
