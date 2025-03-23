@@ -1,17 +1,37 @@
 ﻿@page "/"
+@using RecipeBook.Models
 @using RecipeBook.Services
-@inject IRecipeService _recipeService;
+@inject IRecipeService RecipeService;
 
 <PageTitle>Best Recipes</PageTitle>
 
 <h1>Top Recipes</h1>
 
+<div>
+    @if (TopTenRecipes != null && TopTenRecipes.Count > 0)
+    {
+        <div class="d-flex flex-wrap justify-content-center">
+            @foreach (var recipe in TopTenRecipes)
+            {
+                <RecipeCard Recipe="@recipe"/>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No recipes available.</p>
+    }
+</div>
 
 @code {
 
+    private List<RecipeModel> TopTenRecipes { get; set; }
+
     protected override void OnInitialized()
     {
-        Console.WriteLine("Home page initialized");
+        TopTenRecipes = RecipeService.GetTopTenRecipes();
+        // Console.WriteLine("Home page initialized");
+        // Console.WriteLine(TopTenRecipes[9].Name);
     }
 
 }

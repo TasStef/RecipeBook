@@ -16,9 +16,16 @@ public class RecipeService : IRecipeService
     }
 
 
-    public List<RecipeModel> ReturnTopTenRecipes()
+    public List<RecipeModel> GetTopTenRecipes()
     {
-        throw new NotImplementedException();
+
+        if (Recipes == null)
+        {
+            return new List<RecipeModel>();
+        }
+
+        var topTenRecipes = Recipes.OrderByDescending(r => r.Rating).Take(10).ToList();
+        return topTenRecipes;
     }
 
     public void AddRecipe(RecipeModel recipesModelService)
