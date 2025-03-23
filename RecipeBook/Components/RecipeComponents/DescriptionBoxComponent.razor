@@ -1,0 +1,22 @@
+﻿@typeparam T
+
+<ul class="list-group">
+    <ul class="list-group-item">
+        <h3>@Title</h3>
+        @foreach (var item in Items)
+        {
+        <li class="list-group-item">
+            @item
+        </li>
+        }
+    </ul>
+</ul>
+
+@code {
+    [Parameter]
+    public IEnumerable<T>? Items { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+}
