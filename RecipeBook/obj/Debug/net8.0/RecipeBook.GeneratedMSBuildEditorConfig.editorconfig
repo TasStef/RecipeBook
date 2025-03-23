@@ -65,3 +65,7 @@ build_metadata.AdditionalFiles.CssScope = b-4qem5ndwhk
 [C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/Pages/Recipe.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNpcGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fmc8wcupdm
+
+[C:/Users/TasosStefanidis/RiderProjects/RecipeBook/RecipeBook/Components/RecipeCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWNpcGVDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-5mna9fk3z0

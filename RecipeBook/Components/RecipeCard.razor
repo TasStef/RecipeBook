@@ -1,0 +1,17 @@
+﻿@using RecipeBook.Models
+
+
+<div class="card  m-3 p-2">
+    <NavLink class="custom-nav"  href="@($"Recipe/{Recipe.RecipeId}")">
+        <h4 class="card-title m-1 text-center">@Recipe.Name</h4>
+        <img src="@Recipe.PictureUrl" alt="@Recipe.Name" class="card-img-top"/>
+        <div class="card-body fst-italic">
+            <p>@Recipe.Description</p>
+        </div>
+    </NavLink>
+</div>
+
+
+@code {
+    [Parameter] public RecipeModel Recipe { get; set; }
+}

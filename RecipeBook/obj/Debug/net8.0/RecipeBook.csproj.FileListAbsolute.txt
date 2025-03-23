@@ -32,3 +32,5 @@ C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\bin\Debug\net8.0\Ne
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\RecipeBook.csproj.AssemblyReference.cache
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\RecipeBook.csproj.Up2Date
 C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\scopedcss\Components\Pages\Recipe.razor.rz.scp.css
+C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\RecipeBook.sourcelink.json
+C:\Users\TasosStefanidis\RiderProjects\RecipeBook\RecipeBook\obj\Debug\net8.0\scopedcss\Components\RecipeCard.razor.rz.scp.css

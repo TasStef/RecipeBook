@@ -1,0 +1,17 @@
+﻿.card-img-top {
+    max-width: 75%;
+    width: 14em;
+    height: 10em;
+    border-radius: 30%;
+    margin: 1rem auto;
+}
+
+.custom-nav {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.custom-nav:visited, .custom-nav:hover, .custom-nav:active {
+    color: inherit !important;
+}
+

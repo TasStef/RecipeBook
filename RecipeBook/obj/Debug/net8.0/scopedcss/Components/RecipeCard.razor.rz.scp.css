@@ -1,0 +1,17 @@
+.card-img-top[b-5mna9fk3z0] {
+    max-width: 75%;
+    width: 14em;
+    height: 10em;
+    border-radius: 30%;
+    margin: 1rem auto;
+}
+
+.custom-nav[b-5mna9fk3z0] {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.custom-nav:visited[b-5mna9fk3z0], .custom-nav:hover[b-5mna9fk3z0], .custom-nav:active[b-5mna9fk3z0] {
+    color: inherit !important;
+}
+
